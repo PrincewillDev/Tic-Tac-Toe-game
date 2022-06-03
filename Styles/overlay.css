@@ -1,0 +1,48 @@
+.modal{
+    /* background-color: rgb(235, 255, 255); */
+    position: fixed;
+    background-color: white;
+    top: 20%;
+    left: 5%;
+    color: black;
+    text-align: center;
+    width: 70%;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    box-shadow: 4px 4px 2px rgba(235, 255, 255, 0.1);
+    display: none;
+}
+
+.game-over-message-modal{
+    background-color: rgb(220, 235, 235);
+    color: black;
+    width: 70%;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    position: fixed;
+    left: 7%;
+    display: none;
+}
+
+#backdrop, .backdrop2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+@media (min-width: 48rem) {
+    .modal{
+        left: calc(50% - 20rem);
+        width: 40rem;
+    }
+
+    .game-over-message{
+        left: calc(50% - 21.5rem);
+        width: 40rem;
+    }
+}

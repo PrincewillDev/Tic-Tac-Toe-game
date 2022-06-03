@@ -1,0 +1,35 @@
+#active-game{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+}
+
+#gameboard{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,6rem);
+    grid-template-rows: repeat(3, 6rem);
+    gap: 0.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+#gameboard li{
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: rgb(236, 245, 245);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#gameboard li:hover{
+    background-color: teal;
+}
+
+#gameboard li.disabled{
+    background-color: teal;
+}

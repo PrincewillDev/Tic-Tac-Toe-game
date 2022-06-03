@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(228, 226, 226); */
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+header{
+    background-color: teal;
+}
+
+header h1{
+    color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 2rem;   
+}
+
+.btn{
+    padding: 0.2rem 1.5rem;
+    border: teal;
+    background-color: teal;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    background-color: rgb(7, 94, 94);
+    border:  rgb(7, 94, 94);
+}
+
+.btn-alt{
+    border: transparent;
+    background-color: transparent;
+    color: teal;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn-alt:hover{
+    color: rgb(4, 54, 54);
+    background-color: rgb(197, 233, 233);
+}
+
